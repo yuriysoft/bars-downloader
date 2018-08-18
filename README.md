@@ -3,18 +3,31 @@
 This program allows you to download bars from the remote resources in the network.
 
 Parameters with default values:
+
         "TIMEOUT": 240,
+        
               - timeout (minutes) between auto updating OHLC data (if it's '0' then auto updating isn't used)
+              
         "TIMEFRAME": "15",
+        
               - timeframe; available values are minutes or 'D' for day, 'H' for hour and 'W' for week
+              
         "CHUNK_IN_DAYS": 10,
+        
               - OHLC data portion for one request (days)
+              
         "DATETIME_START": "201612010000",
+        
               - start date
+              
         "DATETIME_END": "201612300000",
+        
               - end date (can be much more than the current date)
+              
         "APPEND_DATA": "yes"
+        
               - if 'yes' data will be appended to existing file
+              
 
 To use own data provider in the project you need:
   1. create new module with class inside.
