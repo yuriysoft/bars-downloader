@@ -36,7 +36,7 @@ To use own data provider in the project you need:
          return Bar list
      - def find(self, query):
          return Ticker list
-  2. add class name import in file __init__.py
+  2. add class name import in file "__init__.py"
   3. add module & class names in configuration file (config.json), like that:
   
     "bars_provider.finam":{"FinamProvider":["SPFB.SBRF", "SPFB.RTS"]}
