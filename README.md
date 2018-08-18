@@ -1,6 +1,6 @@
 # bars-downloader
 
-This program allows you to download bars from the remote resources in the network.
+This program allows you to download bars from the remote resources in the network by timeout.
 
 Parameters with default values:
 
