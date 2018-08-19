@@ -26,18 +26,18 @@ Parameters with default values:
               
         "APPEND_DATA": "yes"
         
-              - if 'yes' data will be appended to existing file
+              - if 'yes' data will be appended to the existing file
               
 
 To use own data provider in the project you need:
-  1. create new module with class inside.
-     New provider class should contains functions:
+  1. create a new module with the class inside.
+     New provider class should contains the functions:
      - def bars(self, ticker, start, end, period):
          return Bar list
      - def find(self, query):
          return Ticker list
-  2. add class name import in file __init__.py
-  3. add module & class names in configuration file (config.json), like that:
+  2. add class name import to the file __init__.py
+  3. add module & class names the the configuration file (config.json), like this:
   
     "bars_provider.finam":{"FinamProvider":["SPFB.SBRF", "SPFB.RTS"]}
             |                    |                   |
