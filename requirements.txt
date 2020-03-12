@@ -5,7 +5,7 @@ future==0.16.0
 idna==2.6
 macholib==1.9
 pefile==2017.11.5
-psutil==5.4.3
+psutil==5.6.6
 PyInstaller==3.3
 pypiwin32==220
 requests==2.18.4
