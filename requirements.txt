@@ -9,4 +9,4 @@ psutil==5.4.3
 PyInstaller==3.3
 pypiwin32==220
 requests==2.18.4
-urllib3==1.22
+urllib3==1.26.5
